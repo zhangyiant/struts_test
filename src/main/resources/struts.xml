@@ -12,7 +12,7 @@
       <result type="redirectAction">Menu</result>
       <result name="input">/Logon.jsp</result>
     </action>
-    <action name="*">
+    <action name="*" class="tutorial.TutorialSupport">
       <result>/{1}.jsp</result>
     </action>
   </package>
