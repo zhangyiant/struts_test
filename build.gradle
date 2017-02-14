@@ -3,8 +3,11 @@ apply plugin: "war"
 apply plugin: "jetty"
 
 repositories {
-    mavenCentral()
+//    mavenCentral()
+    maven {
+        url "http://192.168.1.249:8081/artifactory/maven2"
     }
+}
     
 
 dependencies {
