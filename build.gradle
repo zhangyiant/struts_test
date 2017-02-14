@@ -3,10 +3,9 @@ apply plugin: "war"
 apply plugin: "jetty"
 
 repositories {
-    maven {
-  url "http://192.168.1.249:8081/artifactory/maven2"
-  }
-}
+    mavenCentral()
+    }
+    
 
 dependencies {
   compile("org.apache.struts:struts2-core:2.5.5")
